@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <CheckBox
+        android:id="@+id/checkbox_chocolate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="29dp"
+        android:layout_marginEnd="246dp"
+        android:text="@string/chocolate_syrup" />
+
+    <CheckBox
+        android:id="@+id/checkbox_sprinkies"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="289dp"
+        android:text="@string/sprinkies"/>
+
+    <CheckBox
+        android:id="@+id/checkbox_crushed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="264dp"
+        android:text="@string/crushed_nuts" />
+
+    <CheckBox
+        android:id="@+id/checkbox_cherries"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="294dp"
+        android:text="@string/cherries" />
+
+    <CheckBox
+        android:id="@+id/checkbox_orio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="207dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/orio_cookie_crumbles" />
+
+    <Button
+        android:id="@+id/button_toast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="267dp"
+        android:layout_marginBottom="348dp"
+        android:text="@string/btn_toast"
+         />
+
+</LinearLayout>
